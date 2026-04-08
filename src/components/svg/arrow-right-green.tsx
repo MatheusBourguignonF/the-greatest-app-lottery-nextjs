@@ -1,6 +1,8 @@
-export function ArrowRight(
-  props: React.SVGProps<SVGSVGElement>
-) {
+import { SVGProps } from "react";
+
+interface IArrowRight extends SVGProps<SVGSVGElement> {}
+
+export const ArrowRight = (props: IArrowRight) => {
   return (
     <svg
       viewBox="0 0 32 32"
@@ -15,4 +17,4 @@ export function ArrowRight(
       />
     </svg>
   );
-}
+}   
