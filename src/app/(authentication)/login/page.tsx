@@ -1,8 +1,5 @@
-import { AuthCard } from "@/components/auth/auth-card/card";
-import { LoginForm } from "@/components/auth/auth-card/login-form";
-import { ArrowRight } from "@/components/svg/arrow-right-green";
 import { Metadata } from "next";
-import Link from "next/link";
+import LoginClient from "./login-client";
 
 export const metadata: Metadata = {
     title: "TGL - Login",
@@ -35,16 +32,6 @@ export const metadata: Metadata = {
     }
 }
 
-export default function LoginPage() {
-  return (
-    <div>
-       <AuthCard title="Authentication">
-        <LoginForm/>
-      </AuthCard>
-      <div className="flex items-center justify-center gap-5 mt-8">
-        <Link href={'/authentication/register'} className="text-primary font-bold italic text-4xl">Sign Up</Link>
-        <ArrowRight className="text-[#535351] w-6 h-5"/>
-      </div>
-    </div>
-  );
+export default function Page() {
+  return <LoginClient />;
 }
