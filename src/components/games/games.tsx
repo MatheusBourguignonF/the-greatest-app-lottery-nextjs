@@ -20,9 +20,7 @@ export const GameSection = (props: IProps) => {
   let filteredGames: IGame[]
 
   if (selectedGame) {
-    filteredGames = games.types.filter(
-      (game) => game.type === selectedGame
-    );
+    filteredGames = games.types.filter((game) => game.type === selectedGame)
   } else {
     filteredGames = games.types
   }
@@ -34,7 +32,6 @@ export const GameSection = (props: IProps) => {
         <p className="text-[#868686]">Filters</p>
 
         {games.types.map((game:IGame ) => {
-
           return (
             <div key={game.type}>
               <button onClick={() => handleFilter(game.type)} className="border-2 rounded-full w-28 h-8 italic font-bold text-[14px] transition"
@@ -42,9 +39,9 @@ export const GameSection = (props: IProps) => {
             </div>
           )
         })}
-
+        
         <div className="flex flex-1 items-center justify-end gap-2.5 mr-28">
-          <Link href="" className="text-[24px] text-secondary font-bold italic">New bet</Link>
+          <Link href={'/new_bet'} className="text-[24px] text-secondary font-bold italic">New bet</Link>
           <ArrowRight className="w-6 h-5 text-secondary" />
         </div>
       </section>
