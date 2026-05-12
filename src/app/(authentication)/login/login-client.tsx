@@ -12,13 +12,11 @@ import { useState } from "react";
 export default function LoginPage() {  
 
 const  [user, setUser] = useState<IUser>({
-  name: "",
   email: "",
   password: "",
 })
 
 const mockUser: IUser = {
-  name:"Matheus",
   email: "matheusbourg@hotmail.com",
   password: "Matheus2610!",
 };
