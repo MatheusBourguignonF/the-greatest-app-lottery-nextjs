@@ -20,7 +20,7 @@ const  [user, setUser] = useState<IUser>({
 const mockUser: IUser = {
   name:"Matheus",
   email: "matheusbourg@hotmail.com",
-  password: "m26102006",
+  password: "Matheus2610!",
 };
 
 const [message, setMessage] = useState<string>("")
