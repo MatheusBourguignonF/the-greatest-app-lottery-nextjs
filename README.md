@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎰 TGL - The Greatest App Lottery
 
-## Getting Started
+O **TGL (The Greatest App Lottery)** é uma aplicação web desenvolvida com foco em prática de desenvolvimento front-end moderno, simulando uma experiência de autenticação para um sistema de loteria digital.
 
-First, run the development server:
+O projeto foi construído com atenção a boas práticas de componentização, tipagem forte e validação de formulários.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Tecnologias utilizadas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Este projeto foi desenvolvido utilizando:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- React Hook Form
+- Zod
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🔐 Funcionalidades
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+A aplicação conta com:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Tela de login
+- Tela de registro de usuário
+- Recuperação de senha
+- Validação de formulários com Zod
+- Gerenciamento de formulários com React Hook Form
+- Tela inicial com listagem e filtragem de jogos
+- Tela para criação de apostas
+- Interface responsiva e moderna com Tailwind CSS
